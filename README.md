@@ -15,7 +15,7 @@ Maintenance procurement was reactive: emergency part expediting and either overs
 ## Approach
 End-to-end pipeline:
 
-1. **Failure prediction** — built predictive failure models for critical mechanical components using [equipment health index / sensor data / historical failure records — FILL method + algorithm].
+1. **Failure prediction** — built predictive failure models for critical mechanical components using equipment health index, sensor data and historical failure records with XGBoost algorithms.
 2. **Degradation forecasting** — forecasted component lifecycle degradation to anticipate replacement timing by XGBoost.
 3. **Inventory linkage** — aligned model outputs with spare-parts inventory data and vendor lead times.
 4. **Reorder optimization** — optimized reorder points for high-value spares and designed **just-in-time (JIT) procurement** timed to predicted degradation.
@@ -49,8 +49,8 @@ End-to-end pipeline:
 
 ## Running
 ```bash
-git clone https://github.com/[user]/[repo].git
-cd [repo]
+git clone https://github.com/KilkankB/HPCL--Understanding-Condition-Monitoring.git
+cd HPCL--Understanding-Condition-Monitoring
 pip install -r requirements.txt
 ```
 
