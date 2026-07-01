@@ -1,4 +1,4 @@
-# Predictive Maintenance–Driven Spare Parts Optimization
+# Understanding Condition Monitoring
 ### HPCL Internship · Visakh Refinery, Visakhapatnam
 
 An integrated project linking **predictive equipment-failure models** to **spare-parts inventory and procurement decisions** for critical rotary equipment at HPCL's Visakh Refinery. Goal: use degradation forecasts to time procurement, cut holding cost, and reduce emergency expediting — validated on a **simulated operational quarter**.
